@@ -1,3 +1,12 @@
+.text-platzi {
+    color: #97C93E !important;
+}
+
+#header img {
+    width: 30px;
+}
+
+/* --------------------------footer */
 #footer {
     background-image: linear-gradient(90deg, rgb(28, 54, 67) 0px, rgb(39, 59, 71) 25%, rgb(30, 83, 114));
 }
