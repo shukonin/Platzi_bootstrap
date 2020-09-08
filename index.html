@@ -7,11 +7,27 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <style>
+      .col {
+        border: 1px solid blue;
+      }
+    </style>
     <title>Hello, world!</title>
   </head>
   <body>
-    
+    <div class="container" style="background: red;">
+      <div class="row">
+        <div class="col">
+          One of three columns
+        </div>
+        <div class="col-5">
+          Two of three columns
+        </div>
+        <div class="col-5">
+          Three of three columns
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
