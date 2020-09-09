@@ -44,6 +44,16 @@
     height: 100%;
 }
 
+/*---------------------------place-time*/
+#place-time {
+    background-color: #323940;
+    color: white;
+}
+
+#place-time img {
+    max-width: 100%;
+}
+
 /* --------------------------footer */
 #footer {
     background-image: linear-gradient(90deg, rgb(28, 54, 67) 0px, rgb(39, 59, 71) 25%, rgb(30, 83, 114));
