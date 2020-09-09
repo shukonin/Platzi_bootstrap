@@ -37,7 +37,7 @@
               <a class="nav-link" href="#orador">Conviértete en orador</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-platzi" href="#">Comprar tickets</a>
+              <a class="nav-link text-platzi" data-toggle="modal" href="#modalCompra">Comprar tickets</a>
             </li>
           </ul>
         </div>
@@ -65,7 +65,7 @@
                 <h1>PlatziConf Hawaii</h1>
                 <p class="d-none d-md-block">Platzi Conf llega por primera vez a Hawaii! Un evento para compartir con nuestra comunidad el cobnocimiento y experiencia de los expertos que están creando el futuro de internet. Vena  conocer a miembros del team Platzi, a otros estudiantes y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
                 <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
-                <button type="button" class="btn btn-platzi">Comprar tickets</button>
+                <button type="button" class="btn btn-platzi" data-toggle="modal" data-target="#modalCompra">Comprar tickets</button>
               </div>
             </div>
           </div>
@@ -215,6 +215,42 @@
       </div>
     </footer>
     <!-- /footer -->
+
+    <!-- modal -->
+    <div class="modal fade" id="modalCompra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Comprar tickets</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="alert alert-warning" role="alert">
+              Recibirás un correo de confirmación.
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-platzi">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /modal -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
